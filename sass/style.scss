@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box
+}
+$my-pink:#FF8B8B;
+$my-green:#61BFAD;
+$my-background: #F9F7E8;
+
+body {
+  margin: 0;
+  font-family: "Exo 2";
+  background-color: #fff;
+  
+}
+
+.my-container {
+  margin-top: 100px;
+
+}
+
+
+#home {
+  height: 100vh;
+}
+
+    .sticky2 {
+      position:fixed;
+      height: 100%;
+      width: 40px;
+      background: repeating-linear-gradient(
+      to right,
+      $my-background,
+      $my-background 10px,
+      $my-pink 10px,
+      $my-pink 20px);
+    }
+    .navbar-default {
+      background-color: $my-pink;
+        .navbar-nav {
+          li {
+            a {
+              color: $my-background;
+              font-size: 20px;
+              font-weight: 700;
+              padding: 20px;
+              line-height:30px;
+            } 
+          }
+        }
+
+        .nav-container {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    
+
+.var-highlight{
+  color: $my-green;
+}
+.string-highlight{
+  color: $my-pink;
+}
+
+#typewriter{
+      font-size: 2em;
+      margin: 0;
+      font-family: "Courier New";
+
+      &:after{
+          content: "|";
+          animation: blink 500ms linear infinite alternate;
+      }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.stripe {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom:0;
+  
+  background: linear-gradient(
+    to bottom,
+    $my-green,
+    $my-green 50%,
+    $my-background 50%,
+    $my-background
+  );
+  background-size: 100% 20px;
+
+}
+
+#technology {
+  margin-top: 100px;
+  .first{
+    margin-bottom: 100px;
+    text-align:center;
+  }
+  .second {
+    text-align:center;
+    margin-bottom: 40px;
+  }
+  
+  .row {
+    margin-bottom: 70px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    [class*="col-"] {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+ 
+        i {
+        font-size: 100px;
+        }
+        .html5 {
+          &:hover {
+            color: #E44D26;
+          }
+        }
+        .css3 {
+          &:hover {
+            color:#33A9DC;
+            }
+        }
+        .javascript {
+          &:hover {
+            color: #FBDE34;
+          }
+        }
+        .jquery {
+          &:hover {
+            color: #0868AB;
+          }
+        }
+        .bootstrap {
+          &:hover {
+            color: #6C43A1;
+          }
+        }
+        .sass {
+          &:hover {
+            color:#CC6699;
+          }
+        }
+        .git {
+          &:hover {
+            color: #EF4F32;
+          }
+        }
+        .foundation{
+          &:hover {
+            color: #2BA6CB;
+          }
+        }
+        .nodejs {
+          font-size: 150px;
+          &:hover {
+            color: #77B063;
+          }
+        }
+        .react {
+          &:hover {
+            color: #61DAFB;
+          }
+        }
+        .webpack {
+          font-size: 170px;
+          padding-top:15px;
+          &:hover {
+            color: #1C78C0;
+          }
+        }
+        
+          
+    
+ 
+}}

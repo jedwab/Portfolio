@@ -4,25 +4,116 @@
 		<meta charset="UTF-8">
 		<title>Justyna Bobrowska - Front-End Developer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.prefixed.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,500,700,800&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.prefixed.css">
     </head>
 	<body>
-        <header class="container">
-             <nav>
-                <ul>
-                    <li><a href="o-mnie">O mnie</a></li>
-                    <li><a href="umiejętnści">Umiejętności</a></li>
-                    <li><a href="projekty">Projekty</a></li>
-                    <li><a href="kontakt">Kontakt</a></li>
-                </ul>
+        <div class="sticky2"></div>
+        <header id="home">
+            <nav class="navbar navbar-default">
+                <div class="container nav-container">
+                    <div class="row">
+                        <div class="navbar-header nav-container">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav  navbar-nav navbar-right nav-container">
+                                <li><a href="#o mnie">O mnie</a></li>
+                                <li><a href="#technology">Technologie</a></li>  
+                                <li><a href="#projekty">Projekty</a></li>  
+                                <li><a href="#kontakt">Kontakt</a></li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </nav>
+            <div class="container my-container">
+                <div class="row">
+                    <div class="col-lg-8">
+
+               <pre id="typewriter">
+<span class="var-highlight">const</span> frontEndDeveloper = {
+      name: <span class="string-highlight">'Justyna'</span>,
+      surname: <span class="string-highlight">'Bobrowska'</span>,
+      location: <span class="string-highlight">'Wrocław'</span>,
+      possibilityOfMoving: <span class="string-highlight">'true'</span>,
+      pros:[<span class="string-highlight">'creative'</span>,
+            <span class="string-highlight">'open-minded'</span>,
+            <span class="string-highlight">'eager to learn'</span>];
+}; </pre>
+                    </div>
+                    <div class="col-lg-6">
+
+                    </div>>
+                </div>
+            </div>
         </header>
-        <section class="container">O mnie</section>
-        <section class="container"> Umiejętności</section>
-        <section class="container">Projekty</section>
-        <section class="container">Kontakt</section>
+            
+        <div class="stripe"></div>
+            
+        <section id="technology">
+            <h1 class="first">Technologie, których używam :</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-javascript-plain javascript"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-jquery-plain-wordmark jquery"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <i class="devicon-bootstrap-plain-wordmark bootstrap"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-sass-original sass"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        
+                        <i class="devicon-git-plain-wordmark git"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-foundation-plain-wordmark foundation"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="second">Uczę się i wprowadzam do projektów</h1>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <i class="devicon-nodejs-plain-wordmark nodejs"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-react-original react"></i>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="devicon-webpack-plain-wordmark webpack"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+        <section class="container" id="projekty"></section>
+        <section class="container" id- "kontakt"></section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </div>
     </body>
 </html>

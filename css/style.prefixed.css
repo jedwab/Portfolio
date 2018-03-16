@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Exo 2";
+  background-color: #fff; }
+
+.my-container {
+  margin-top: 100px; }
+
+#home {
+  height: 100vh; }
+
+.sticky2 {
+  position: fixed;
+  height: 100%;
+  width: 40px;
+  background: repeating-linear-gradient(to right, #F9F7E8, #F9F7E8 10px, #FF8B8B 10px, #FF8B8B 20px); }
+
+.navbar-default {
+  background-color: #FF8B8B; }
+  .navbar-default .navbar-nav li a {
+    color: #F9F7E8;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 30px; }
+  .navbar-default .nav-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+
+.var-highlight {
+  color: #61BFAD; }
+
+.string-highlight {
+  color: #FF8B8B; }
+
+#typewriter {
+  font-size: 2em;
+  margin: 0;
+  font-family: "Courier New"; }
+  #typewriter:after {
+    content: "|";
+    animation: blink 500ms linear infinite alternate; }
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.stripe {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to bottom, #61BFAD, #61BFAD 50%, #F9F7E8 50%, #F9F7E8);
+  background-size: 100% 20px; }
+
+#technology {
+  margin-top: 100px; }
+  #technology .first {
+    margin-bottom: 100px;
+    text-align: center; }
+  #technology .second {
+    text-align: center;
+    margin-bottom: 40px; }
+  #technology .row {
+    margin-bottom: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    #technology .row [class*="col-"] {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center; }
+    #technology .row i {
+      font-size: 100px; }
+    #technology .row .html5:hover {
+      color: #E44D26; }
+    #technology .row .css3:hover {
+      color: #33A9DC; }
+    #technology .row .javascript:hover {
+      color: #FBDE34; }
+    #technology .row .jquery:hover {
+      color: #0868AB; }
+    #technology .row .bootstrap:hover {
+      color: #6C43A1; }
+    #technology .row .sass:hover {
+      color: #CC6699; }
+    #technology .row .git:hover {
+      color: #EF4F32; }
+    #technology .row .foundation:hover {
+      color: #2BA6CB; }
+    #technology .row .nodejs {
+      font-size: 150px; }
+      #technology .row .nodejs:hover {
+        color: #77B063; }
+    #technology .row .react:hover {
+      color: #61DAFB; }
+    #technology .row .webpack {
+      font-size: 170px;
+      padding-top: 15px; }
+      #technology .row .webpack:hover {
+        color: #1C78C0; }
+
+/*# sourceMappingURL=style.prefixed.css.map */

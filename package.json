@@ -2,7 +2,7 @@
   "name": "Module-8",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "npm run test:html && npm run test:js",
     "test:html": "glob-run nu-html-checker *.html",
