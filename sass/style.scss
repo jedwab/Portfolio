@@ -1,62 +1,57 @@
 * {
     box-sizing: border-box
 }
-$my-pink:#FF8B8B;
-$my-green:#61BFAD;
-$my-background: #F9F7E8;
-$dark-detail:#888888;
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway";
   background-color:#fff;
   
 }
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
+
 @mixin header-h2{
   text-align:center;
   font-size: 35px;
+  font-weight: 400;
 
 }
+.row {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
 
+[class*="col-"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 #home {
   height: 100vh;
-  position:realtive;
-}
-
-    .stripe {
-      position:fixed;
-      height: 100%;
-      width: 40px;
-      background: repeating-linear-gradient(
-        to right,
-        $my-background,
-        $my-background 10px,
-        $my-pink 10px,
-        $my-pink 20px
-      );
-      box-shadow: 2px 10px $dark-detail;
-    }
     .navbar-default {
-      background-color: $my-pink;
-      box-shadow: 2px 5px $dark-detail;
+      background-color: white;
+
+        .navbar-toggle {
+          border: 2px solid grey;
+          background-color: white;
+        }
 
         .navbar-nav {
           li {
             a {
               position: relative;
-              color: $my-background;
-              font-size: 20px;
-              font-weight: 700;
+              color: black;
+              font-size: 25px;
+              font-weight: 300;
               padding: 20px;
               line-height:30px;
               transition:0.3s;
               &:hover {
-                color: $dark-detail;
+                color: grey;
               }
               &:hover::before {
                 visibility:visible;
@@ -71,7 +66,7 @@ body {
               display:block;
               left:0;
               bottom: 0;
-              background-color: $my-background;
+              background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
               visibility:hidden;
               transform: scaleX(0);
               transition: all 0.3s ease-in-out 0s;
@@ -84,56 +79,48 @@ body {
           justify-content: space-between;
         }
       }
-    
-
-.var-highlight{
-  color: $my-green;
-}
-.string-highlight{
-  color: $my-pink;
-}
-
-#typewriter{
-      font-size: 2em;
-      margin: 0;
-      font-family: "Courier New";
-
-      &:after{
-          content: "|";
-          animation: blink 500ms linear infinite alternate;
+      .box {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        transform-style: preserve-3d;
+        color: white;
+        font-size: 25px;
       }
-}
-
-@-webkit-keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
-}
-
-@-moz-keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
-}
-
-@keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
-}
-.stripe2 {
-  width: 100%;
-  height: 50px;
-  position: absolute;
-  bottom:0;
-  background: linear-gradient(
-    to bottom,
-    $my-green,
-    $my-green 50%,
-    $my-background 50%,
-    $my-background
-  );
-  background-size: 100% 20px;
-  box-shadow: 2px 5px $dark-detail;
-
-}
+      h2 {
+        transform: translateZ(40px);
+       }
+      .box-1 {
+        width:400px;
+        height: 200px;
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        transition: all 0.7s;
+          &:hover {
+            border: 20px solid transparent;
+            background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+          } 
+      }
+      .box-2 {
+        width: 200px;
+        height: 300px;
+        background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+        transition: all 0.4s;
+        &:hover {
+          border: 20px solid transparent;
+          background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+        }
+      }
+      .box-3 {
+        height: 200px;
+        width: 600px;
+        background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+        transition: all 1s;
+        &:hover {
+          border: 20px solid transparent;
+          background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+        }
+      }
+    }
 
 #technology {
   margin-top: 100px;
@@ -151,11 +138,7 @@ body {
   
   .row {
     margin-bottom: 70px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    flex-wrap:wrap;
-
+   
     [class*="col-"] {
       display: flex;
       flex-direction: column;
@@ -165,7 +148,7 @@ body {
  
         i {
         font-size: 100px;
-        color:$dark-detail;
+        color:BLACK;;
         transition: 0.3s;
         &:hover {
           transform: scale(1.3);
@@ -173,82 +156,59 @@ body {
         }
         }
         .html5 {
-          &:hover {
-            color: #E44D26;
-          }
+          color: #E44D26;
         }
         .css3 {
-          &:hover {
-            color:#33A9DC;
-            }
+          color:#33A9DC;
         }
         .javascript {
-          &:hover {
-            color: #FBDE34;
-          }
+          color: #FBDE34;
         }
         .jquery {
-          &:hover {
             color: #0868AB;
-          }
         }
         .bootstrap {
-          &:hover {
-            color: #6C43A1;
-          }
+          color: #6C43A1;
         }
         .sass {
-          &:hover {
-            color:#CC6699;
-          }
+          color:#CC6699;
         }
         .git {
-          &:hover {
-            color: #EF4F32;
-          }
+          color: #EF4F32;
         }
         .foundation{
-          &:hover {
-            color: #2BA6CB;
-          }
+          color: #2BA6CB;
         }
         .nodejs {
           font-size: 150px;
-          &:hover {
-            color: #77B063;
-          }
+          color: #77B063;
         }
         .react {
-          &:hover {
             color: #61DAFB;
-          }
         }
         .webpack {
           font-size: 170px;
           padding-top:15px;
-          &:hover {
-            color: #1C78C0;
-          }
+          color: #1C78C0;
+          
         }
       }
     
   }
-#projekty {
-    position:relative;
-    .stripe3 {
-      width: 100%;
-      height: 50px;
-      top:0;
-      background: repeating-linear-gradient(
-        to right,
-        $my-green,
-        $my-green 10px,
-        $my-background 10px,
-        $my-background 20px
-      );
-      box-shadow: 2px 5px $dark-detail;
-  }
-  h2 {
-    @include header-h2;
+#o-mnie {
+  background-color:#30c7ec;
+  
+  .description {
+    font-size: 18px;
+    text-align:justify;
+    letter-spacing: 2px;
+      span {
+        color: #fff;
+        font-weight:500;
+      }
+
   }
 }
+
+
+

@@ -3,14 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Justyna Bobrowska - Front-End Developer</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&amp;subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.prefixed.css">
     </head>
 	<body>
-        <div class="stripe"></div>
         <header id="home">
             <nav class="navbar navbar-default">
                 <div class="container nav-container">
@@ -25,7 +24,7 @@
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav  navbar-nav navbar-right nav-container">
-                                <li><a href="#o mnie">O mnie</a></li>
+                                <li><a href="#o-mnie">O mnie</a></li>
                                 <li><a href="#technology">Technologie</a></li>  
                                 <li><a href="#projekty">Projekty</a></li>  
                                 <li><a href="#kontakt">Kontakt</a></li> 
@@ -34,36 +33,47 @@
                     </div>
                 </div>
             </nav>
-            <div class="container my-container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-
-               <pre id="typewriter">
-<span class="var-highlight">const</span> frontEndDeveloper = {
-      name: <span class="string-highlight">'Justyna'</span>,
-      surname: <span class="string-highlight">'Bobrowska'</span>,
-      location: <span class="string-highlight">'Wrocław'</span>,
-      possibilityOfMoving: <span class="string-highlight">'true'</span>,
-      pros:[<span class="string-highlight">'creative'</span>,
-            <span class="string-highlight">'open-minded'</span>,
-            <span class="string-highlight">'eager to learn'</span>];
-}; </pre>
+                    <div class="col-lg-6">
+                        <div data-tilt class="box box-1 js-tilt">
+                            <h2>Hi, I'm</h2> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div data-tilt class="box box-2 js-tilt">
+                            <h2>Justyna</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div data-tilt class="box box-3 js-tilt">
+                            <h2>Front-End Developer</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="o-mnie">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="description">
+                            <p>Dzień Dobry!</p><br> <p>Nazywam się <span>Justyna</span> Bobrowska. Z zawodu prawnik, z zamiłowania Junior Front-End <span>Developer</span>. Zakochana w możliwościach wizualnych dzisiejszych <span>technologii </span>webowych. Amatorka science-fiction i fantasy.</p> <p>Satysfakcję czerpię z ciągłego <span>rozwoju</span> na wszystkich płaszczyznach i "przeskakiwania" siebie. </p><p> Wiem, że jeszcze bardzo dużo przede mną do <span>nauki</span>.Świadomość tego faktu jest dla mnie największym motorem do <span>działania</span>.<br></p> <p> Aktualnie mieszkam we Wrocławiu, w przypadku pojawienia się ciekawej propozycji współpracy <span>relokacja</span> nie stanowi dla mnie problemu.</p>
+                        </div>
                     </div>
                     <div class="col-lg-6">
 
-                    </div>>
+                    </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="stripe2"></div>
-            </div>
-
-        </header>
+        </section>
             
         
             
         <section id="technology">
-            <h2 class="first">Technologie, których używam :</h2>
+            <h2 class="first">Technologie: </h2>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -111,11 +121,9 @@
             </div>
         </section>
         <section id="projekty">
-            <div class="container-fluid">
-                <div class="stripe3"></div>
-            </div>
             <div class="container">
                 <h2>Projekty:</h2>
+               
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="card-img">
@@ -126,7 +134,7 @@
 
                         </div>
                         <div class="card-footer">
-                            
+                             
                         </div>
                     </div>
                 </div>
@@ -134,8 +142,9 @@
 
         </section>
         <section class="container" id- "kontakt"></section>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
     </div>
     </body>
