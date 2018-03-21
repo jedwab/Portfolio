@@ -111,8 +111,6 @@ body {
       font-size: 100px;
       color: BLACK;
       transition: 0.3s; }
-      #technology .row i:hover {
-        transform: scale(1.3); }
     #technology .row .html5 {
       color: #E44D26; }
     #technology .row .css3 {
@@ -140,13 +138,12 @@ body {
       color: #1C78C0; }
 
 #o-mnie {
-  background-color: #30c7ec; }
+  padding: 100px 0; }
   #o-mnie .description {
     font-size: 18px;
     text-align: justify;
     letter-spacing: 2px; }
     #o-mnie .description span {
-      color: #fff;
       font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */
