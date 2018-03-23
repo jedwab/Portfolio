@@ -30,6 +30,7 @@ body {
   align-items: center;
 }
 
+
 #home {
   height: 100vh;
     .navbar-default {
@@ -148,7 +149,6 @@ body {
  
         i {
         font-size: 100px;
-        color:BLACK;;
         transition: 0.3s;
         }
         .html5 {
@@ -192,9 +192,15 @@ body {
     
   }
 #o-mnie {
-  padding: 100px 0;
+
+  #startchange {
+    width: 10px;
+    height: 10px;
+    visibility: none;
+  }
   
   .description {
+    padding: 150px 0;
     font-size: 18px;
     text-align:justify;
     letter-spacing: 2px;
@@ -205,6 +211,110 @@ body {
 
   }
 }
+#projekty {
+ 
+  padding: 100px 0;
+  h2 {
+    @include header-h2;
+    padding-bottom: 100px;
+  }
+  .row {
+    flex-flow: row wrap;
+  }
+  .col-md-4 {
+   
+    margin-bottom:20px;
+   
+    padding: 20px;
+    margin: 10px;
+    transition: all 0.4s;
+      &:hover {
+        box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+      }
+      
+      
+
+    }
+
+    img {
+      width: 100%;
+    }
+
+    
+
+    
+
+      .card-text {
+        padding: 30px;
+        width: 100%;
+        flex: 1 1 auto;
+        height: 180px;
+        background-color: #E6F6FB;
+      
+      }
+
+      .card-footer {
+      padding: 10px;
+        width: 100%;
+       
+        background-color:#F6C7C7;
+     
+          i {
+            font-size: 30px;
+            margin-right: 10px;
+          }
+      }
+  }
+
+#kontakt {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+  .row {
+    width: 100%;
+  }
+    
+ 
+  
+    .background-container {
+    background: linear-gradient(to bottom, rgba(48, 199, 236, 1), rgba(255,255,255,.5)),
+    url("/images/footer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding-right: 0;
+
+  
+    }
+  
+  
+      .contact-board {
+        
+        background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(48, 199, 236, 1));
+          h2 {
+            @include header-h2;
+          }
+          svg {
+            font-size: 30px;
+          }
+          p {
+            font-size: 20px;
+            text-align: left;
+          }
+          .social {
+            margin-top: 40px;
+            padding-bottom: 20px;
+          }
+          .fab {
+            color: black;
+            background-color: chartreuse;
+          }
+
+      }
+  
+    }
+
+
 
 
 

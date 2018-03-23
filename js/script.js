@@ -7,7 +7,7 @@ $('.js-tilt').tilt({
 });
 
 $(document).ready(function(){       
-    //sticky navbar
+
     var scroll_start = 0;  
     var startchange = $('#startchange');
     var offset = startchange.offset();
@@ -26,4 +26,4 @@ $(document).ready(function(){
  });
  window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('i', {duration: 1000}, 200);
+sr.reveal('.technology', {duration: 1000}, 200);
