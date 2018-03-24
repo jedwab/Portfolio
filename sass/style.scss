@@ -203,10 +203,6 @@ body {
     text-align:justify;
     letter-spacing: 2px;
     font-weight: 500;
-      span {
-        font-weight:500;
-      }
-
   }
 }
 #projekty {
@@ -299,48 +295,38 @@ body {
   .row {
     width: 100%;
   }
-    
- 
-  
     .background-container {
-    background: linear-gradient(to bottom, rgba(48, 199, 236, 1), rgba(255,255,255,.5)),
-    url("../images/footer.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 40vh;
-    padding-right: 0;
-
-  
+      background: linear-gradient(to bottom, rgba(48, 199, 236, 1), rgba(255,255,255,.5)),
+      url("../images/footer.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+      padding-right: 0;
+    }
+    .contact-board {
+      background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(48, 199, 236, 1));
+        h2 {
+          @include header-h2;
+        }
+        svg {
+          font-size: 30px;
+          color:#333333;
+        }
+        p {
+          font-size: 20px;
+        }
+        .social {
+          margin-top: 40px;
+          padding-bottom: 20px;
+        }
+        .social-link {
+          &:hover {
+            color: #fff;
+          }
+        }
     }
   
-  
-      .contact-board {
-        
-        background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(48, 199, 236, 1));
-          h2 {
-            @include header-h2;
-          }
-          svg {
-            font-size: 30px;
-            color:#333333;
-           
-          }
-          p {
-            font-size: 20px;
-          }
-          .social {
-            margin-top: 40px;
-            padding-bottom: 20px;
-              
-          }
-          .social-link {
-              &:hover {
-                color: #fff;
-              }
-          }
-      }
-  
-    }
+}
  
 
 
