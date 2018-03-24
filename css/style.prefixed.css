@@ -235,7 +235,7 @@ body {
   #kontakt .row {
     width: 100%; }
   #kontakt .background-container {
-    background: linear-gradient(to bottom, #30c7ec, rgba(255, 255, 255, 0.5)), url("/images/footer.jpg");
+    background: linear-gradient(to bottom, #30c7ec, rgba(255, 255, 255, 0.5)), url("../images/footer.jpg");
     background-size: cover;
     background-position: center;
     height: 40vh;
