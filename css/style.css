@@ -191,7 +191,7 @@ body {
     #projekty .col-md-4 button {
       background-color: transparent;
       border: none;
-      margin: 5px 10px;
+      margin: 8px 10px 4px 10px;
       border-bottom: 3px solid transparent; }
       #projekty .col-md-4 button:focus {
         outline: none; }
@@ -234,5 +234,68 @@ body {
       padding-bottom: 20px; }
     #kontakt .contact-board .social-link:hover {
       color: #fff; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #home .box-1 {
+    margin-right: 180px; }
+  #home .box-2 {
+    height: 380px; }
+
+  #o-mnie .description {
+    padding: 110px 0; }
+
+  #technology .row {
+    justify-content: space-between; }
+
+  #projekty .col-md-4 .card-text {
+    padding: 15px; }
+  #projekty .col-md-4 .icons {
+    transform: rotate(90deg);
+    right: -17px;
+    bottom: -17px; }
+    #projekty .col-md-4 .icons button {
+      margin: 7px 5px 0 8px; }
+      #projekty .col-md-4 .icons button svg {
+        transform: rotate(-90deg); }
+  #projekty .col-md-4 .card-footer i {
+    font-size: 26px; }
+
+  #kontakt .background-container {
+    height: 24vh; }
+  #kontakt .contact-board .social {
+    justify-content: space-around; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #home .box-1 {
+    margin-right: 20px; }
+  #home .box-2 {
+    margin-top: 110px; }
+
+  #o-mnie .description {
+    padding: 110px 0; }
+
+  #technology .row {
+    justify-content: space-between; }
+
+  #projekty .col-md-4 {
+    padding: 0; }
+    #projekty .col-md-4 .card-text {
+      padding: 15px; }
+      #projekty .col-md-4 .card-text p {
+        font-weight: 500; }
+    #projekty .col-md-4 .icons {
+      transform: rotate(90deg);
+      right: -17px;
+      bottom: -17px; }
+      #projekty .col-md-4 .icons button {
+        margin: 7px 5px 0 8px; }
+        #projekty .col-md-4 .icons button svg {
+          transform: rotate(-90deg); }
+    #projekty .col-md-4 .card-footer i {
+      font-size: 26px; }
+
+  #kontakt .background-container {
+    height: 24vh; }
+  #kontakt .contact-board .social {
+    justify-content: space-around; } }
 
 /*# sourceMappingURL=style.css.map */

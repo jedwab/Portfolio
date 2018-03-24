@@ -260,7 +260,7 @@ body {
         button {
         background-color: transparent;
         border: none;
-        margin: 5px 10px;
+        margin: 8px 10px 4px 10px;
         border-bottom: 3px solid transparent;
         &:focus {
           outline:none;
@@ -326,6 +326,126 @@ body {
         }
     }
   
+}
+@media (min-width: 992px) and (max-width:1199px) {
+  #home {
+    .box-1 {
+      margin-right:180px;
+    }
+    .box-2 {
+      height: 380px;
+
+    }
+  }
+  #o-mnie {
+    .description {
+      padding:110px 0;
+    }
+  }
+  #technology {
+    .row {
+      justify-content: space-between;
+    }
+  }
+  #projekty {
+    .col-md-4 {
+      .card-text{
+        padding: 15px;
+      }
+      .icons {
+        transform:rotate(90deg);
+        right:-17px;
+        bottom: -17px;
+
+        button{
+          margin:7px 5px 0 8px;
+
+        
+        svg {
+          transform:rotate(-90deg);
+        }
+      }
+    }
+      .card-footer {
+        i {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  #kontakt {
+    .background-container {
+      height: 24vh;
+    }
+    .contact-board  {
+      .social {
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+  #home {
+    .box-1 {
+      margin-right:20px;
+    }
+   .box-2 {
+     margin-top: 110px;
+   }
+
+  }
+  #o-mnie {
+    .description {
+      padding:110px 0;
+    }
+  }
+  #technology {
+    .row {
+      justify-content: space-between;
+    }
+  }
+  #projekty {
+    .col-md-4 {
+      padding:0;
+      .card-text{
+        padding: 15px;
+        p {
+          font-weight: 500;
+        }
+      }
+      .icons {
+        transform:rotate(90deg);
+        right:-17px;
+        bottom: -17px;
+
+        button{
+          margin:7px 5px 0 8px;
+
+        
+        svg {
+          transform:rotate(-90deg);
+        }
+      }
+    }
+      .card-footer {
+        i {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  #kontakt {
+    .background-container {
+      height: 24vh;
+    }
+    .contact-board  {
+      .social {
+        justify-content: space-around;
+      }
+    }
+  }
 }
  
 
