@@ -51,9 +51,6 @@ body {
               padding: 20px;
               line-height:30px;
               transition:0.3s;
-              &:hover {
-                color: grey;
-              }
               &:hover::before {
                 visibility:visible;
                 transform: scaleX(1);
@@ -92,7 +89,8 @@ body {
         transform: translateZ(40px);
        }
       .box-1 {
-        width:400px;
+        
+        width:450px;
         height: 200px;
         background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
         transition: all 0.7s;
@@ -102,8 +100,9 @@ body {
           } 
       }
       .box-2 {
+        margin-top:50px;
         width: 200px;
-        height: 300px;
+        height: 350px;
         background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
         transition: all 0.4s;
         &:hover {
@@ -114,6 +113,7 @@ body {
       .box-3 {
         height: 200px;
         width: 600px;
+        overflow:hidden;
         background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
         transition: all 1s;
         &:hover {
@@ -135,8 +135,6 @@ body {
     @include header-h2;
   
   }
-
-  
   .row {
     margin-bottom: 70px;
    
@@ -204,60 +202,87 @@ body {
     font-size: 18px;
     text-align:justify;
     letter-spacing: 2px;
+    font-weight: 500;
       span {
-      
         font-weight:500;
       }
 
   }
 }
 #projekty {
- 
-  padding: 100px 0;
+  padding: 50px 0;
   h2 {
     @include header-h2;
-    padding-bottom: 100px;
+    
   }
   .row {
     flex-flow: row wrap;
+
   }
   .col-md-4 {
-   
     margin-bottom:20px;
-   
+    flex: 1;
     padding: 20px;
     margin: 10px;
     transition: all 0.4s;
       &:hover {
         box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+        background-color:#E6F6FB;
       }
-      
-      
-
-    }
-
+  
     img {
       width: 100%;
     }
-
-    
-
-    
-
-      .card-text {
-        padding: 30px;
-        width: 100%;
-        flex: 1 1 auto;
-        height: 180px;
-        background-color: #E6F6FB;
+    .card-text {
+      padding: 30px;
+      width: 100%;
+      height: 180px;
+      background-color: #E6F6FB;
+      position:relative;
+    }
       
-      }
+    .icons {
+      position: absolute;
+      border-radius: 30px;
+      background-color: #fff;
+      border: 2px solid #ed145b;
+      transition: all 0.3s ease-in-out;
+      right: 12px;
+      bottom: -20px;
+      z-index: 99;
+        &:hover {
+          border-radius: 5px;
+          background-color:#ED145B;
+        }
+        &:hover svg {
+          color: #fff;
+        }
+    }
+    .webpack-span {
+      padding: 0 23px;
+    }
+        button {
+        background-color: transparent;
+        border: none;
+        margin: 5px 10px;
+        border-bottom: 3px solid transparent;
+        &:focus {
+          outline:none;
+        }
+          svg {
+            color: #333333;
+            font-size: 20px;
+
+              
+          }
+        }
+      
 
       .card-footer {
-      padding: 10px;
+        padding: 10px;
         width: 100%;
-       
         background-color:#F6C7C7;
+        position: relative;
      
           i {
             font-size: 30px;
@@ -265,6 +290,7 @@ body {
           }
       }
   }
+}
 
 #kontakt {
   padding-right: 0 !important;
@@ -296,25 +322,28 @@ body {
           }
           svg {
             font-size: 30px;
+            color:#333333;
+           
           }
           p {
             font-size: 20px;
-            text-align: left;
           }
           .social {
             margin-top: 40px;
             padding-bottom: 20px;
+              
           }
-          .fab {
-            color: black;
-            background-color: chartreuse;
+          .social-link {
+              &:hover {
+                color: #fff;
+              }
           }
-
       }
   
     }
+ 
 
 
 
 
-
+  

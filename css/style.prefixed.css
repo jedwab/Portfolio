@@ -43,8 +43,6 @@ body {
       padding: 20px;
       line-height: 30px;
       transition: 0.3s; }
-      #home .navbar-default .navbar-nav li a:hover {
-        color: grey; }
       #home .navbar-default .navbar-nav li a:hover::before {
         visibility: visible;
         transform: scaleX(1); }
@@ -78,7 +76,7 @@ body {
   #home h2 {
     transform: translateZ(40px); }
   #home .box-1 {
-    width: 400px;
+    width: 450px;
     height: 200px;
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     transition: all 0.7s; }
@@ -86,8 +84,9 @@ body {
       border: 20px solid transparent;
       background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); }
   #home .box-2 {
+    margin-top: 50px;
     width: 200px;
-    height: 300px;
+    height: 350px;
     background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     transition: all 0.4s; }
     #home .box-2:hover {
@@ -96,6 +95,7 @@ body {
   #home .box-3 {
     height: 200px;
     width: 600px;
+    overflow: hidden;
     background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     transition: all 1s; }
     #home .box-3:hover {
@@ -162,43 +162,72 @@ body {
   padding: 150px 0;
   font-size: 18px;
   text-align: justify;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-weight: 500; }
   #o-mnie .description span {
     font-weight: 500; }
 
 #projekty {
-  padding: 100px 0; }
+  padding: 50px 0; }
   #projekty h2 {
     text-align: center;
     font-size: 35px;
-    font-weight: 400;
-    padding-bottom: 100px; }
+    font-weight: 400; }
   #projekty .row {
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
   #projekty .col-md-4 {
     margin-bottom: 20px;
+    -ms-flex: 1;
+        flex: 1;
     padding: 20px;
     margin: 10px;
     transition: all 0.4s; }
     #projekty .col-md-4:hover {
-      box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5); }
-  #projekty img {
-    width: 100%; }
-  #projekty .card-text {
-    padding: 30px;
-    width: 100%;
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-    height: 180px;
-    background-color: #E6F6FB; }
-  #projekty .card-footer {
-    padding: 10px;
-    width: 100%;
-    background-color: #F6C7C7; }
-    #projekty .card-footer i {
-      font-size: 30px;
-      margin-right: 10px; }
+      box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+      background-color: #E6F6FB; }
+    #projekty .col-md-4 img {
+      width: 100%; }
+    #projekty .col-md-4 .card-text {
+      padding: 30px;
+      width: 100%;
+      height: 180px;
+      background-color: #E6F6FB;
+      position: relative; }
+    #projekty .col-md-4 .icons {
+      position: absolute;
+      border-radius: 30px;
+      background-color: #fff;
+      border: 2px solid #ed145b;
+      transition: all 0.3s ease-in-out;
+      right: 12px;
+      bottom: -20px;
+      z-index: 99; }
+      #projekty .col-md-4 .icons:hover {
+        border-radius: 5px;
+        background-color: #ED145B; }
+      #projekty .col-md-4 .icons:hover svg {
+        color: #fff; }
+    #projekty .col-md-4 .webpack-span {
+      padding: 0 23px; }
+    #projekty .col-md-4 button {
+      background-color: transparent;
+      border: none;
+      margin: 5px 10px;
+      border-bottom: 3px solid transparent; }
+      #projekty .col-md-4 button:focus {
+        outline: none; }
+      #projekty .col-md-4 button svg {
+        color: #333333;
+        font-size: 20px; }
+    #projekty .col-md-4 .card-footer {
+      padding: 10px;
+      width: 100%;
+      background-color: #F6C7C7;
+      position: relative; }
+      #projekty .col-md-4 .card-footer i {
+        font-size: 30px;
+        margin-right: 10px; }
 
 #kontakt {
   padding-right: 0 !important;
@@ -218,15 +247,14 @@ body {
       font-size: 35px;
       font-weight: 400; }
     #kontakt .contact-board svg {
-      font-size: 30px; }
+      font-size: 30px;
+      color: #333333; }
     #kontakt .contact-board p {
-      font-size: 20px;
-      text-align: left; }
+      font-size: 20px; }
     #kontakt .contact-board .social {
       margin-top: 40px;
       padding-bottom: 20px; }
-    #kontakt .contact-board .fab {
-      color: black;
-      background-color: chartreuse; }
+    #kontakt .contact-board .social-link:hover {
+      color: #fff; }
 
 /*# sourceMappingURL=style.prefixed.css.map */
