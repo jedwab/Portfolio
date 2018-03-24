@@ -42,7 +42,8 @@ body {
       font-weight: 300;
       padding: 20px;
       line-height: 30px;
-      transition: 0.3s; }
+      transition: 0.3s;
+      text-align: center !important; }
       #home .navbar-default .navbar-nav li a:hover::before {
         visibility: visible;
         transform: scaleX(1); }
@@ -58,11 +59,6 @@ body {
       visibility: hidden;
       transform: scaleX(0);
       transition: all 0.3s ease-in-out 0s; }
-    #home .navbar-default .nav-container {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
   #home .box {
     display: -ms-flexbox;
     display: flex;
@@ -116,15 +112,6 @@ body {
     font-weight: 400; }
   #technology .row {
     margin-bottom: 70px; }
-    #technology .row [class*="col-"] {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: column;
-          flex-direction: column;
-      -ms-flex-pack: center;
-          justify-content: center;
-      -ms-flex-align: center;
-          align-items: center; }
     #technology .row i {
       font-size: 100px;
       transition: 0.3s; }
@@ -370,27 +357,33 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around; } }
 @media (max-width: 576px) {
-  #home {
-    height: 80vh; }
-    #home h2 {
-      font-size: 30px; }
-    #home .box-1 {
-      width: 320px;
-      height: 110px; }
-    #home .box-2 {
-      margin-top: 75px;
-      width: 320px;
-      height: 110px; }
-    #home .box-3 {
-      width: 320px;
-      height: 110px; }
+  #home .navbar-default .navbar-nav li a::before {
+    width: 50%;
+    left: 25%; }
+  #home .row {
+    display: initial; }
+  #home h2 {
+    font-size: 30px; }
+  #home .box-1 {
+    width: 320px;
+    height: 110px; }
+  #home .box-2 {
+    margin-top: 75px;
+    width: 320px;
+    height: 110px; }
+  #home .box-3 {
+    width: 320px;
+    height: 110px; }
 
   #o-mnie .description {
-    padding: 110px 0; }
+    padding: 110px 0;
+    font-size: 12px; }
 
   #technology .row {
-    -ms-flex-pack: justify;
-        justify-content: space-between; }
+    -ms-flex-pack: center;
+        justify-content: center; }
+    #technology .row i {
+      font-size: 50px; }
 
   #projekty .row {
     display: initial; }
@@ -398,16 +391,18 @@ body {
     padding: 15px 30px 30px 30px; }
     #projekty .col-md-4 .card-text p {
       font-weight: 500;
-      font-size: 18px; }
+      font-size: 15px; }
     #projekty .col-md-4 .card-text h3 {
       margin: 0;
-      font-size: 26px; }
+      font-size: 20px; }
   #projekty .col-md-4 .icons {
-    right: 35px;
-    bottom: -27px; }
+    transform: rotate(90deg);
+    right: -23px;
+    bottom: -16px; }
     #projekty .col-md-4 .icons button {
-      margin: 8px 14px 5px 21px; }
+      margin: 3px 7px 0px 6px; }
       #projekty .col-md-4 .icons button svg {
+        transform: rotate(-90deg);
         font-size: 30px; }
   #projekty .col-md-4 .card-footer {
     padding: 15px; }
@@ -415,9 +410,17 @@ body {
       font-size: 30px; }
 
   #kontakt .background-container {
-    height: 31vh; }
+    height: 20vh; }
+  #kontakt .contact-board h2 {
+    font-size: 20px; }
+  #kontakt .contact-board p {
+    font-size: 16px; }
+  #kontakt .contact-board svg {
+    font-size: 15px; }
   #kontakt .contact-board .social {
     -ms-flex-pack: distribute;
-        justify-content: space-around; } }
+        justify-content: space-around; }
+  #kontakt .contact-board .social-link {
+    font-size: 26px; } }
 
 /*# sourceMappingURL=style.prefixed.css.map */

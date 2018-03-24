@@ -31,6 +31,7 @@ body {
 }
 
 
+
 #home {
   height: 100vh;
     .navbar-default {
@@ -51,6 +52,7 @@ body {
               padding: 20px;
               line-height:30px;
               transition:0.3s;
+              text-align:center !important;
               &:hover::before {
                 visibility:visible;
                 transform: scaleX(1);
@@ -72,10 +74,7 @@ body {
           }
         }
 
-        .nav-container {
-          display: flex;
-          justify-content: space-between;
-        }
+        
       }
       .box {
         display:flex;
@@ -138,12 +137,7 @@ body {
   .row {
     margin-bottom: 70px;
    
-    [class*="col-"] {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+   
  
         i {
         font-size: 100px;
@@ -528,7 +522,19 @@ body {
 }
 @media (max-width:576px) {
   #home {
-    height: 80vh;
+    .navbar-default {
+      .navbar-nav li {
+        a::before {
+          width:50%;
+          left:25%;
+        }
+      }
+    }  
+   
+    .row {
+      display:initial;
+    }
+  
     h2 {
       font-size: 30px;
     }
@@ -550,14 +556,19 @@ body {
   #o-mnie {
     .description {
       padding:110px 0;
+      font-size:12px;
       
     }
   }
   #technology {
     .row {
-      justify-content: space-between;
+      justify-content: center;
+    
+    i {
+      font-size:50px;
     }
   }
+}
   #projekty {
     .row {
       display:initial;
@@ -569,22 +580,24 @@ body {
         padding: 15px 30px 30px 30px;
         p {
           font-weight: 500;
-          font-size:18px;
+          font-size:15px;
         }
         h3{
           margin:0;
-          font-size:26px
+          font-size:20px
         }
       }
       .icons {
+        transform:rotate(90deg);
     
-        right: 35px;
-        bottom: -27px;
+        right: -23px;
+        bottom: -16px;
 
         button{
-          margin:8px 14px 5px 21px;
+          margin:3px 7px 0px 6px;
 
         svg {
+          transform:rotate(-90deg);
           font-size:30px;
         }
         
@@ -600,11 +613,24 @@ body {
   }
   #kontakt {
     .background-container {
-      height: 31vh;
+      height: 20vh;
     }
     .contact-board  {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 16px
+      }
+      svg {
+        font-size: 15px;
+      }
       .social {
         justify-content: space-around;
+       
+      }
+      .social-link {
+        font-size:26px;
       }
     }
   }
