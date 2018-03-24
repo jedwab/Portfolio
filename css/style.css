@@ -254,14 +254,14 @@ body {
     right: -17px;
     bottom: -17px; }
     #projekty .col-md-4 .icons button {
-      margin: 7px 5px 0 8px; }
+      margin: 6px 5px 0 8px; }
       #projekty .col-md-4 .icons button svg {
         transform: rotate(-90deg); }
   #projekty .col-md-4 .card-footer i {
     font-size: 26px; }
 
   #kontakt .background-container {
-    height: 24vh; }
+    height: 31vh; }
   #kontakt .contact-board .social {
     justify-content: space-around; } }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -279,22 +279,116 @@ body {
   #projekty .col-md-4 {
     padding: 0; }
     #projekty .col-md-4 .card-text {
-      padding: 15px; }
+      padding: 0 15px 15px 15px; }
       #projekty .col-md-4 .card-text p {
         font-weight: 500; }
     #projekty .col-md-4 .icons {
       transform: rotate(90deg);
       right: -17px;
-      bottom: -17px; }
+      bottom: -16px; }
       #projekty .col-md-4 .icons button {
-        margin: 7px 5px 0 8px; }
+        margin: 6px 5px 0 8px; }
         #projekty .col-md-4 .icons button svg {
           transform: rotate(-90deg); }
-    #projekty .col-md-4 .card-footer i {
-      font-size: 26px; }
+    #projekty .col-md-4 .card-footer {
+      padding: 15px 4px 4px 4px; }
+      #projekty .col-md-4 .card-footer i {
+        font-size: 24px; }
 
   #kontakt .background-container {
-    height: 24vh; }
+    height: 31vh; }
+  #kontakt .contact-board .social {
+    justify-content: space-around; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  #home .box-1 {
+    width: 320px;
+    height: 110px; }
+  #home .box-2 {
+    margin-top: 75px;
+    width: 160px;
+    height: 300px; }
+  #home .box-3 {
+    width: 400px;
+    height: 120px; }
+
+  #o-mnie .description {
+    padding: 110px 0; }
+
+  #technology .row {
+    justify-content: space-between; }
+
+  #projekty .row {
+    display: initial; }
+  #projekty .col-md-4 .card-text {
+    padding: 15px 30px 30px 30px; }
+    #projekty .col-md-4 .card-text p {
+      font-weight: 500;
+      font-size: 18px; }
+    #projekty .col-md-4 .card-text h3 {
+      margin: 0;
+      font-size: 26px; }
+  #projekty .col-md-4 .icons {
+    right: 35px;
+    bottom: -27px; }
+    #projekty .col-md-4 .icons button {
+      margin: 8px 14px 5px 21px; }
+      #projekty .col-md-4 .icons button svg {
+        font-size: 30px; }
+  #projekty .col-md-4 .card-footer {
+    padding: 15px; }
+    #projekty .col-md-4 .card-footer i {
+      font-size: 30px; }
+
+  #kontakt .background-container {
+    height: 31vh; }
+  #kontakt .contact-board .social {
+    justify-content: space-around; } }
+@media (max-width: 576px) {
+  #home {
+    height: 80vh; }
+    #home h2 {
+      font-size: 30px; }
+    #home .box-1 {
+      width: 320px;
+      height: 110px; }
+    #home .box-2 {
+      margin-top: 75px;
+      width: 320px;
+      height: 110px; }
+    #home .box-3 {
+      width: 320px;
+      height: 110px; }
+
+  #o-mnie .description {
+    padding: 110px 0; }
+
+  #technology .row {
+    justify-content: space-between; }
+
+  #projekty .row {
+    display: initial; }
+  #projekty .col-md-4 .card-text {
+    padding: 15px 30px 30px 30px; }
+    #projekty .col-md-4 .card-text p {
+      font-weight: 500;
+      font-size: 18px; }
+    #projekty .col-md-4 .card-text h3 {
+      margin: 0;
+      font-size: 26px; }
+  #projekty .col-md-4 .icons {
+    right: 35px;
+    bottom: -27px; }
+    #projekty .col-md-4 .icons button {
+      margin: 8px 14px 5px 21px; }
+      #projekty .col-md-4 .icons button svg {
+        font-size: 30px; }
+  #projekty .col-md-4 .card-footer {
+    padding: 15px; }
+    #projekty .col-md-4 .card-footer i {
+      font-size: 30px; }
+
+  #kontakt .background-container {
+    height: 31vh; }
   #kontakt .contact-board .social {
     justify-content: space-around; } }
 

@@ -358,7 +358,7 @@ body {
         bottom: -17px;
 
         button{
-          margin:7px 5px 0 8px;
+          margin:6px 5px 0 8px;
 
         
         svg {
@@ -375,7 +375,7 @@ body {
   }
   #kontakt {
     .background-container {
-      height: 24vh;
+      height: 31vh;
     }
     .contact-board  {
       .social {
@@ -410,7 +410,7 @@ body {
     .col-md-4 {
       padding:0;
       .card-text{
-        padding: 15px;
+        padding: 0 15px 15px 15px;
         p {
           font-weight: 500;
         }
@@ -418,10 +418,10 @@ body {
       .icons {
         transform:rotate(90deg);
         right:-17px;
-        bottom: -17px;
+        bottom: -16px;
 
         button{
-          margin:7px 5px 0 8px;
+          margin:6px 5px 0 8px;
 
         
         svg {
@@ -430,15 +430,16 @@ body {
       }
     }
       .card-footer {
+        padding:15px 4px 4px 4px;
         i {
-          font-size: 26px;
+          font-size: 24px;
         }
       }
     }
   }
   #kontakt {
     .background-container {
-      height: 24vh;
+      height: 31vh;
     }
     .contact-board  {
       .social {
@@ -447,7 +448,167 @@ body {
     }
   }
 }
+@media (min-width: 576px) and (max-width:767px) {
+  #home {
+    .box-1 {
+      width:320px;
+      height:110px;
+    }
+   .box-2 {
+     margin-top: 75px;
+     width:160px;
+     height:300px;
+   }
+   .box-3 {
+     width:400px;
+     height: 120px;
+   }
+
+  }
+  #o-mnie {
+    .description {
+      padding:110px 0;
+    }
+  }
+  #technology {
+    .row {
+      justify-content: space-between;
+    }
+  }
+  #projekty {
+    .row {
+      display:initial;
+    }
+    .col-md-4 {
+    
  
+      .card-text{
+        padding: 15px 30px 30px 30px;
+        p {
+          font-weight: 500;
+          font-size:18px;
+        }
+        h3{
+          margin:0;
+          font-size:26px
+        }
+      }
+      .icons {
+    
+        right: 35px;
+        bottom: -27px;
+
+        button{
+          margin:8px 14px 5px 21px;
+
+        svg {
+          font-size:30px;
+        }
+        
+      }
+    }
+      .card-footer {
+        padding:15px;
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #kontakt {
+    .background-container {
+      height: 31vh;
+    }
+    .contact-board  {
+      .social {
+        justify-content: space-around;
+      }
+    }
+  }
+}
+@media (max-width:576px) {
+  #home {
+    height: 80vh;
+    h2 {
+      font-size: 30px;
+    }
+    .box-1 {
+      width:320px;
+      height:110px;
+    }
+   .box-2 {
+     margin-top: 75px;
+     width:320px;
+     height:110px;
+   }
+   .box-3 {
+    width:320px;
+    height:110px;
+   }
+
+  }
+  #o-mnie {
+    .description {
+      padding:110px 0;
+      
+    }
+  }
+  #technology {
+    .row {
+      justify-content: space-between;
+    }
+  }
+  #projekty {
+    .row {
+      display:initial;
+    }
+    .col-md-4 {
+    
+ 
+      .card-text{
+        padding: 15px 30px 30px 30px;
+        p {
+          font-weight: 500;
+          font-size:18px;
+        }
+        h3{
+          margin:0;
+          font-size:26px
+        }
+      }
+      .icons {
+    
+        right: 35px;
+        bottom: -27px;
+
+        button{
+          margin:8px 14px 5px 21px;
+
+        svg {
+          font-size:30px;
+        }
+        
+      }
+    }
+      .card-footer {
+        padding:15px;
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #kontakt {
+    .background-container {
+      height: 31vh;
+    }
+    .contact-board  {
+      .social {
+        justify-content: space-around;
+      }
+    }
+  }
+}
 
 
 
