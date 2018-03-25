@@ -337,6 +337,18 @@ body {
   #kontakt .contact-board .social {
     justify-content: space-around; } }
 @media (max-width: 576px) {
+  .main {
+    font-size: 30px !important; }
+
+  #home .button-absolute {
+    display: absolute; }
+  #home .navbar {
+    margin-bottom: 0; }
+  #home .navbar-default .navbar-toggle {
+    margin-right: 25px; }
+  #home .navbar-default .navbar-nav li a {
+    font-size: 20px;
+    padding: 15px; }
   #home .navbar-default .navbar-nav li a::before {
     width: 50%;
     left: 25%; }
@@ -356,37 +368,49 @@ body {
     height: 110px; }
 
   #o-mnie .description {
-    padding: 110px 0;
-    font-size: 12px; }
+    padding: 50px 0;
+    font-size: 12px;
+    text-align: left; }
 
-  #technology .row {
-    justify-content: center; }
-    #technology .row i {
-      font-size: 50px; }
+  #technology {
+    margin-top: 60px; }
+    #technology .first {
+      margin-bottom: 60px; }
+    #technology .row {
+      justify-content: center; }
+      #technology .row i {
+        font-size: 40px; }
+      #technology .row .nodejs {
+        font-size: 90px; }
+      #technology .row .webpack {
+        font-size: 100px;
+        padding-top: 5px; }
 
-  #projekty .row {
-    display: initial; }
-  #projekty .col-md-4 .card-text {
-    padding: 15px 30px 30px 30px; }
-    #projekty .col-md-4 .card-text p {
-      font-weight: 500;
-      font-size: 15px; }
-    #projekty .col-md-4 .card-text h3 {
-      margin: 0;
-      font-size: 20px; }
-  #projekty .col-md-4 .icons {
-    transform: rotate(90deg);
-    right: -23px;
-    bottom: -16px; }
-    #projekty .col-md-4 .icons button {
-      margin: 3px 7px 0px 6px; }
-      #projekty .col-md-4 .icons button svg {
-        transform: rotate(-90deg);
+  #projekty {
+    padding: 0; }
+    #projekty .row {
+      display: initial; }
+    #projekty .col-md-4 .card-text {
+      padding: 15px 30px 30px 30px; }
+      #projekty .col-md-4 .card-text p {
+        font-weight: 500;
+        font-size: 15px; }
+      #projekty .col-md-4 .card-text h3 {
+        margin: 0;
+        font-size: 20px; }
+    #projekty .col-md-4 .icons {
+      transform: rotate(90deg);
+      right: -26px;
+      bottom: -16px; }
+      #projekty .col-md-4 .icons button {
+        margin: 3px 7px 0px 6px; }
+        #projekty .col-md-4 .icons button svg {
+          transform: rotate(-90deg);
+          font-size: 30px; }
+    #projekty .col-md-4 .card-footer {
+      padding: 15px; }
+      #projekty .col-md-4 .card-footer i {
         font-size: 30px; }
-  #projekty .col-md-4 .card-footer {
-    padding: 15px; }
-    #projekty .col-md-4 .card-footer i {
-      font-size: 30px; }
 
   #kontakt .background-container {
     height: 20vh; }

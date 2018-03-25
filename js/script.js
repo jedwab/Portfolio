@@ -1,9 +1,6 @@
 $('.js-tilt').tilt({
-
     glare: true,
     maxGlare: .5,
-
-
 });
 
 $(document).ready(function(){       
@@ -24,6 +21,14 @@ $(document).ready(function(){
     });
      }
  });
+ 
  window.sr = ScrollReveal({ reset: true });
+ sr.reveal('.technology', {duration: 1000}, 200);
 
-sr.reveal('.technology', {duration: 1000}, 200);
+ $('.collapsed').on('click', function(event) {
+    if (window.matchMedia('(max-width: 576px)').matches) {
+        $('.box-1').css('margin-top', '0');
+        $('.box-2').css( 'margin-top', '17px');
+        $('.box').css('height', '90px');
+    }
+});

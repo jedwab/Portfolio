@@ -447,15 +447,18 @@ body {
     .box-1 {
       width:320px;
       height:110px;
+     
     }
    .box-2 {
      margin-top: 75px;
      width:160px;
      height:300px;
+ 
    }
    .box-3 {
      width:400px;
      height: 120px;
+ 
    }
 
   }
@@ -521,12 +524,32 @@ body {
   }
 }
 @media (max-width:576px) {
+  .main {
+    font-size: 30px !important;
+  }
   #home {
+    .button-absolute {
+      display: absolute;
+    }
+    .navbar {
+      margin-bottom: 0;
+    }
     .navbar-default {
-      .navbar-nav li {
-        a::before {
-          width:50%;
-          left:25%;
+      .navbar-toggle {
+        margin-right: 25px;
+      }
+     
+
+      .navbar-nav {
+        li {
+          a {
+            font-size: 20px;
+            padding:15px;
+          }
+          a::before {
+            width:50%;
+            left:25%;
+          }
         }
       }
     }  
@@ -541,35 +564,56 @@ body {
     .box-1 {
       width:320px;
       height:110px;
+     
     }
    .box-2 {
      margin-top: 75px;
      width:320px;
      height:110px;
+   
    }
    .box-3 {
     width:320px;
     height:110px;
+  
    }
 
   }
   #o-mnie {
     .description {
-      padding:110px 0;
+      padding:50px 0;
       font-size:12px;
+      text-align:left;
       
     }
   }
   #technology {
+    margin-top: 60px;
+
+    .first {
+      margin-bottom: 60px;
+    }
     .row {
       justify-content: center;
     
-    i {
-      font-size:50px;
-    }
+      i {
+        font-size:40px;
+      }
+      .nodejs {
+        font-size: 90px;
+     
+      }
+     
+      .webpack {
+        font-size: 100px;
+        padding-top: 5px;
+  
+        
+      }
   }
 }
   #projekty {
+    padding: 0;
     .row {
       display:initial;
     }
@@ -590,7 +634,7 @@ body {
       .icons {
         transform:rotate(90deg);
     
-        right: -23px;
+        right: -26px;
         bottom: -16px;
 
         button{
