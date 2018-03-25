@@ -129,6 +129,10 @@ body {
       padding-top: 15px;
       color: #1C78C0; }
 
+#o-mnie img {
+  height: auto;
+  width: 300px;
+  border: 3px solid #fff; }
 #o-mnie #startchange {
   width: 10px;
   height: 10px;
@@ -305,7 +309,8 @@ body {
     height: 120px; }
 
   #o-mnie .description {
-    padding: 110px 0; }
+    padding: 110px 0;
+    font-size: 15px; }
 
   #technology .row {
     justify-content: space-between; }
@@ -367,6 +372,11 @@ body {
     width: 320px;
     height: 110px; }
 
+  #o-mnie .col-xs-4, #o-mnie .col-xs-8 {
+    width: 100%; }
+  #o-mnie img {
+    width: 200px;
+    margin-top: 20px; }
   #o-mnie .description {
     padding: 50px 0;
     font-size: 12px;

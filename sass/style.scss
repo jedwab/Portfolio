@@ -185,6 +185,14 @@ body {
   }
 #o-mnie {
 
+  img {
+    height: auto;
+    width:300px;
+    border: 3px solid #fff;
+  
+    
+  }
+
   #startchange {
     width: 10px;
     height: 10px;
@@ -463,8 +471,11 @@ body {
 
   }
   #o-mnie {
+
+   
     .description {
       padding:110px 0;
+      font-size: 15px;
     }
   }
   #technology {
@@ -580,6 +591,15 @@ body {
 
   }
   #o-mnie {
+
+    .col-xs-4, .col-xs-8 {
+      width: 100%;
+    }
+
+    img {
+      width: 200px;
+      margin-top:20px;
+    }
     .description {
       padding:50px 0;
       font-size:12px;

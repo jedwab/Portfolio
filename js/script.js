@@ -29,6 +29,7 @@ $(document).ready(function(){
     if (window.matchMedia('(max-width: 576px)').matches) {
         $('.box-1').css('margin-top', '0');
         $('.box-2').css( 'margin-top', '17px');
-        $('.box').css('height', '90px');
+        $('.box').css('height', '80px');
+        $('.my-photo').css('margin-top', '50px');
     }
 });
