@@ -92,9 +92,7 @@ body {
         width:450px;
         height: 200px;
         background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-        transition: all 0.7s;
           &:hover {
-            border: 20px solid transparent;
             background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
           } 
       }
@@ -103,9 +101,7 @@ body {
         width: 200px;
         height: 350px;
         background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-        transition: all 0.4s;
         &:hover {
-          border: 20px solid transparent;
           background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
         }
       }
@@ -114,9 +110,7 @@ body {
         width: 600px;
         overflow:hidden;
         background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
-        transition: all 1s;
         &:hover {
-          border: 20px solid transparent;
           background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
         }
       }

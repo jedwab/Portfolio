@@ -62,28 +62,22 @@ body {
   #home .box-1 {
     width: 450px;
     height: 200px;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    transition: all 0.7s; }
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
     #home .box-1:hover {
-      border: 20px solid transparent;
       background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); }
   #home .box-2 {
     margin-top: 50px;
     width: 200px;
     height: 350px;
-    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-    transition: all 0.4s; }
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); }
     #home .box-2:hover {
-      border: 20px solid transparent;
       background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); }
   #home .box-3 {
     height: 200px;
     width: 600px;
     overflow: hidden;
-    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
-    transition: all 1s; }
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); }
     #home .box-3:hover {
-      border: 20px solid transparent;
       background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); }
 
 #technology {
