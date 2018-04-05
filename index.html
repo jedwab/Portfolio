@@ -1,320 +1,451 @@
 <!DOCTYPE html>
 <html lang="pl">
-	<head>
-		<meta charset="UTF-8">
-		<title>Justyna Bobrowska - Front-End Developer</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.prefixed.css">
-    </head>
-	<body>
-        <header id="home">
-            <nav class="navbar navbar-default">
-                <div class="container nav-container">
-                    <div class="row">
-                        <div class="navbar-header nav-container">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav  navbar-nav navbar-right nav-container">
-                                <li><a href="#" class="o-mnie">O mnie</a></li>
-                                <li><a href="#" class="technologia">Technologie</a></li>  
-                                <li><a href="#" class="projekty">Projekty</a></li>  
-                                <li><a href="#" class="kontakt">Kontakt</a></li> 
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div data-tilt class="box box-1 js-tilt">
-                            <h2>Hi, I'm</h2> 
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div data-tilt class="box box-2 js-tilt">
-                            <h2>Justyna</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div data-tilt class="box box-3 js-tilt">
-                            <h2  >Front-End Developer</h2>
-                        </div>
-                        <div id="startchange"></div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section id="o-mnie" class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-xs-4">
-                        <div>
-                            <img src="images/my-foto.jpg" class="img-responsive img-rounded my-photo">
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-xs-8">
-                        <div class="description">
-                            <p>Dzień Dobry!</p><br> <p>Nazywam się <span>Justyna</span> Bobrowska. Z zawodu prawnik, z zamiłowania Junior Front-End <span>Developer</span>. Zakochana w możliwościach wizualnych dzisiejszych <span>technologii </span>webowych. Amatorka science-fiction i fantasy.</p> <p>Satysfakcję czerpię z ciągłego <span>rozwoju</span> na wszystkich płaszczyznach i "przeskakiwania" siebie. </p><p> Wiem, że przede mną jeszcze dużo <span>nauki</span>. Świadomość tego faktu jest dla mnie największym motorem do <span>działania</span>.<br></p> <p> Aktualnie mieszkam we Wrocławiu, w przypadku pojawienia się ciekawej propozycji współpracy <span>relokacja</span> nie stanowi dla mnie problemu.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="technology">
-            <h2 class="first main">Technologie: </h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <i class="devicon-html5-plain-wordmark html5 technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-css3-plain-wordmark css3 technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-javascript-plain javascript technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-jquery-plain-wordmark jquery technology"></i>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <i class="devicon-bootstrap-plain-wordmark bootstrap technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-sass-original sass technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        
-                        <i class="devicon-git-plain-wordmark git technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-foundation-plain-wordmark foundation technology"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <h2 class="second main">Uczę się i wprowadzam do projektów :</h2>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <i class="devicon-nodejs-plain-wordmark nodejs technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-react-original react technology"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="devicon-webpack-plain-wordmark webpack technology"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projekty">
-            <div class="container">
-                <h2 class="main">Projekty:</h2>
-                <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="card-img">
-                            <img src="images/portfolio-1.jpg">
-                        </div>
-                        <div class="card-text">
-                            <h3> PSD to HTML #1</h3>
-                            <p>Praktyka cięcia szablonu PSD i wdrożenia go w  HTML.</p>
-                            <span class="icons"> <a href="https://github.com/jedwab/PSDTOHTML" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/PSDTOHTML/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                        </div>
-                        <div class="card-footer">
-                            <i class="devicon-html5-plain-wordmark html5"></i>
-                            <i class="devicon-css3-plain-wordmark css3"></i>
-                            <i class="devicon-jquery-plain-wordmark jquery"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card-img">
-                            <img src="images/portfolio-2.jpg">
-                        </div>
-                        <div class="card-text">
-                            <h3> PSD to HTML #2</h3>
-                            <p>Praktyka cięcia szablonu PSD i wdrożenia go w  HTML.</p>
-                            <span class="icons"> <a href="https://github.com/jedwab/PSD-1" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/PSD-1/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                        </div>
-                        <div class="card-footer">
-                            <i class="devicon-html5-plain-wordmark html5"></i>
-                            <i class="devicon-css3-plain-wordmark css3"></i>
-                            <i class="devicon-sass-original sass"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-4 ">
-                        <div class="card-img">
-                            <img src="images/portfolio-3.jpg">
-                        </div>
-                        <div class="card-text">
-                            <h3> PSD to HTML #3</h3>
-                            <p>Praktyka cięcia szablonu PSD i wdrożenia go w  HTML.</p>
-                            <span class="icons"> <a href="https://github.com/jedwab/PSD-3" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/PSD-3/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                        </div>
-                        <div class="card-footer">
-                            <i class="devicon-html5-plain-wordmark html5"></i>
-                            <i class="devicon-css3-plain-wordmark css3"></i>
-                            <i class="devicon-sass-original sass"></i>
-                            <i class="devicon-bootstrap-plain-wordmark bootstrap"></i>
-                            <i class="devicon-jquery-plain-wordmark jquery"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card-img">
-                            <img src="images/portfolio-4.jpg">
-                        </div>
-                        <div class="card-text">
-                            <h3> Country Search Engine</h3>
-                            <p>Wyszukiwarka krajów oparta o API i Ajax.</p>
-                            <span class="icons"> <a href="https://github.com/jedwab/Country-Search-Engine" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/Country-Search-Engine/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                        </div>
-                        <div class="card-footer">
-                            <i class="devicon-html5-plain-wordmark html5"></i>
-                            <i class="devicon-css3-plain-wordmark css3"></i>
-                            <i class="devicon-jquery-plain-wordmark jquery"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card-img">
-                            <img src="images/portfolio-6.jpg">
-                        </div>
-                        <div class="card-text">
-                            <h3> Game Rock Paper Scissors Lizard Spock</h3>
-                            <p>Wariacja na temat gry papier kamień nożyce napisana w czystym JS. </p>
-                            <span class="icons"> <a href="https://github.com/jedwab/GameRockPaperScissorsLizardSpock" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/GameRockPaperScissorsLizardSpock/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                        </div>
-                        <div class="card-footer">
-                            <i class="devicon-html5-plain-wordmark html5"></i>
-                            <i class="devicon-css3-plain-wordmark css3"></i>
-                            <i class="devicon-javascript-plain javascript"></i>
-                            <i class="devicon-bootstrap-plain-wordmark bootstrap"></i>
-                        </div>
-                    </div>
-                        <div class="col-md-4 ">
-                            <div class="card-img">
-                                <img src="images/portfolio-5.jpg">
-                            </div>
-                            <div class="card-text">
-                                <h3> Gif Search Engine</h3>
-                                <p>Wyszukiwarka gifów z serwisu Giphy oparta o React.</p>
-                                <span class="icons"> <a href="https://github.com/jedwab/Gif-search" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/Gif-search/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                            </div>
-                            <div class="card-footer">
-                                <i class="devicon-html5-plain-wordmark html5"></i>
-                                <i class="devicon-css3-plain-wordmark css3"></i>
-                                <i class="devicon-javascript-plain javascript"></i>
-                                <i class="devicon-react-original react"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card-img">
-                                <img src="images/portfolio-7.jpg">
-                            </div>
-                            <div class="card-text">
-                                <h3> Kanban Board</h3>
-                                <p>Tablica Kanban. Dzięki API wpisywane dane zostają zapamiętane również po odświeżeniu strony.</p>
-                                <span class="icons"> <a href="https://github.com/jedwab/Kanban-Board" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/Kanban-Board/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                            </div>
-                            <div class="card-footer">
-                                <i class="devicon-html5-plain-wordmark html5"></i>
-                                <i class="devicon-css3-plain-wordmark css3"></i>
-                                <i class="devicon-javascript-plain javascript"></i>
-                                <i class="devicon-jquery-plain-wordmark jquery"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-4 ">
-                            <div class="card-img">
-                                <img src="images/portfolio-9.jpg">
-                            </div>
-                            <div class="card-text">
-                                <h3> Stoper React</h3>
-                                <p>Prosty stoper zbudowany w React.</p>
-                                <span class="icons"> <a href="https://github.com/jedwab/React-Stoper" target="blank"><button><i class="fab fa-github"></i></button></a><a href="https://jedwab.github.io/React-Stoper/" target="blank"><button><i class="fas fa-play"></i></button></a></span>
-                            </div>
-                            <div class="card-footer">
-                                <i class="devicon-html5-plain-wordmark html5"></i>
-                                <i class="devicon-css3-plain-wordmark css3"></i>
-                                <i class="devicon-javascript-plain javascript"></i>
-                                <i class="devicon-react-original react"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card-img">
-                                <img src="images/portfolio-8.jpg">
-                            </div>
-                            <div class="card-text">
-                                <h3> React + Webpack To Do List</h3>
-                                <p>Aplikacja "TO DO", w której wykorzystałam Webpack.</p>
-                                <span class="icons webpack-span"> <a href="https://github.com/jedwab/Webpack-To-Do-App" target="blank"><button><i class="fab fa-github"></i></button></a></span>
-                            </div>
-                            <div class="card-footer">
-                                <i class="devicon-html5-plain-wordmark html5"></i>
-                                <i class="devicon-css3-plain-wordmark css3"></i>
-                                <i class="devicon-javascript-plain javascript"></i>
-                                <i class="devicon-react-original react"></i>
-                                <i class="devicon-webpack-plain webpack"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer id="kontakt" class="container-fluid">
-            <div class=" background-container">
-                </div>
-                    <div class="contact-board">
-                        <h2>Skontaktuj się ze mną:</h2>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <p><i class="fas fa-phone"></i></p> 
-                            </div>
-                            <div class="col-lg-2">
-                                <p>+48 698956078</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <p><i class="far fa-envelope"></i></p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>justynabobrowska88@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="row social">
-                            <div class="col-lg-2">
-                                <a href="https://github.com/jedwab" target="blank"><i class="fab fa-github social-link"></i></a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a href="https://www.linkedin.com/in/justyna-bobrowska/" target="blank"><i class="fab fa-linkedin social-link"></i></a> 
-                            </div>
-                            <div class="col-lg-2">
-                                <a href="https://web.facebook.com/profile.php?id=100014080338443" target="blank"><i class="fab fa-facebook social-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
 
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Justyna Bobrowska - Front-End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.prefixed.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar navbar-default">
+            <div class="container nav-container">
+                <div class="row">
+                    <div class="navbar-header nav-container">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav  navbar-nav navbar-right nav-container">
+                            <li>
+                                <a href="#" class="o-mnie">O mnie</a>
+                            </li>
+                            <li>
+                                <a href="#" class="technologia">Technologie</a>
+                            </li>
+                            <li>
+                                <a href="#" class="projekty">Projekty</a>
+                            </li>
+                            <li>
+                                <a href="#" class="kontakt">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div data-tilt class="box box-1 js-tilt">
+                        <h2>Hi, I'm</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div data-tilt class="box box-2 js-tilt">
+                        <h2>Justyna</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div data-tilt class="box box-3 js-tilt">
+                        <h2>Front-End Developer</h2>
+                    </div>
+                    <div id="startchange"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="o-mnie" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-4">
+                    <div>
+                        <img src="images/my-foto.jpg" class="img-responsive img-rounded my-photo">
+                    </div>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                    <div class="description">
+                        <p>Dzień Dobry!</p>
+                        <br>
+                        <p>Nazywam się
+                            <span>Justyna</span> Bobrowska. Z zawodu prawnik, z zamiłowania Junior Front-End
+                            <span>Developer</span>. Zakochana w możliwościach wizualnych dzisiejszych
+                            <span>technologii </span>webowych. Amatorka science-fiction i fantasy.</p>
+                        <p>Satysfakcję czerpię z ciągłego
+                            <span>rozwoju</span> na wszystkich płaszczyznach i "przeskakiwania" siebie. </p>
+                        <p> Wiem, że przede mną jeszcze dużo
+                            <span>nauki</span>. Świadomość tego faktu jest dla mnie największym motorem do
+                            <span>działania</span>.
+                            <br>
+                        </p>
+                        <p> Aktualnie mieszkam we Wrocławiu, w przypadku pojawienia się ciekawej propozycji współpracy
+                            <span>relokacja</span> nie stanowi dla mnie problemu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="technology">
+        <h2 class="first main">Technologie: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <i class="devicon-html5-plain-wordmark html5 technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-css3-plain-wordmark css3 technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-javascript-plain javascript technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-jquery-plain-wordmark jquery technology"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <i class="devicon-bootstrap-plain-wordmark bootstrap technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-sass-original sass technology"></i>
+                </div>
+                <div class="col-lg-3">
+
+                    <i class="devicon-git-plain-wordmark git technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-foundation-plain-wordmark foundation technology"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="second main">Uczę się i wprowadzam do projektów :</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <i class="devicon-nodejs-plain-wordmark nodejs technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-react-original react technology"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="devicon-webpack-plain-wordmark webpack technology"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projekty">
+        <div class="container">
+            <h2 class="main">Projekty:</h2>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card-img">
+                        <img src="images/portfolio-1.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> PSD to HTML #1</h3>
+                        <p>Praktyka cięcia szablonu PSD i wdrożenia go w HTML.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/PSDTOHTML" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/PSDTOHTML/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-jquery-plain-wordmark jquery"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-img">
+                        <img src="images/portfolio-2.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> PSD to HTML #2</h3>
+                        <p>Praktyka cięcia szablonu PSD i wdrożenia go w HTML.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/PSD-1" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/PSD-1/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-sass-original sass"></i>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-img">
+                        <img src="images/portfolio-3.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> PSD to HTML #3</h3>
+                        <p>Praktyka cięcia szablonu PSD i wdrożenia go w HTML.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/PSD-3" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/PSD-3/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-sass-original sass"></i>
+                        <i class="devicon-bootstrap-plain-wordmark bootstrap"></i>
+                        <i class="devicon-jquery-plain-wordmark jquery"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-img">
+                        <img src="images/portfolio-4.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> Country Search Engine</h3>
+                        <p>Wyszukiwarka krajów oparta o API i Ajax.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/Country-Search-Engine" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/Country-Search-Engine/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-jquery-plain-wordmark jquery"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-img">
+                        <img src="images/portfolio-6.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> Game Rock Paper Scissors Lizard Spock</h3>
+                        <p>Wariacja na temat gry papier kamień nożyce napisana w czystym JS. </p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/GameRockPaperScissorsLizardSpock" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/GameRockPaperScissorsLizardSpock/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-javascript-plain javascript"></i>
+                        <i class="devicon-bootstrap-plain-wordmark bootstrap"></i>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-img">
+                        <img src="images/portfolio-5.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> Gif Search Engine</h3>
+                        <p>Wyszukiwarka gifów z serwisu Giphy oparta o React.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/Gif-search" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/Gif-search/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-javascript-plain javascript"></i>
+                        <i class="devicon-react-original react"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-img">
+                        <img src="images/portfolio-7.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> Kanban Board</h3>
+                        <p>Tablica Kanban. Dzięki API wpisywane dane zostają zapamiętane również po odświeżeniu strony.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/Kanban-Board" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/Kanban-Board/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-javascript-plain javascript"></i>
+                        <i class="devicon-jquery-plain-wordmark jquery"></i>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-img">
+                        <img src="images/portfolio-9.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> Stoper React</h3>
+                        <p>Prosty stoper zbudowany w React.</p>
+                        <span class="icons">
+                            <a href="https://github.com/jedwab/React-Stoper" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://jedwab.github.io/React-Stoper/" target="blank">
+                                <button>
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-javascript-plain javascript"></i>
+                        <i class="devicon-react-original react"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-img">
+                        <img src="images/portfolio-8.jpg">
+                    </div>
+                    <div class="card-text">
+                        <h3> React + Webpack To Do List</h3>
+                        <p>Aplikacja "TO DO", w której wykorzystałam Webpack.</p>
+                        <span class="icons webpack-span">
+                            <a href="https://github.com/jedwab/Webpack-To-Do-App" target="blank">
+                                <button>
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-footer">
+                        <i class="devicon-html5-plain-wordmark html5"></i>
+                        <i class="devicon-css3-plain-wordmark css3"></i>
+                        <i class="devicon-javascript-plain javascript"></i>
+                        <i class="devicon-react-original react"></i>
+                        <i class="devicon-webpack-plain webpack"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer id="kontakt" class="container-fluid">
+        <div class=" background-container">
+        </div>
+        <div class="contact-board">
+            <h2>Skontaktuj się ze mną:</h2>
+            <div class="row">
+                <div class="col-lg-2">
+                    <p>
+                        <i class="fas fa-phone"></i>
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p>+48 698956078</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <p>
+                        <i class="far fa-envelope"></i>
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p>justynabobrowska88@gmail.com</p>
+                </div>
+            </div>
+            <div class="row social">
+                <div class="col-lg-2">
+                    <a href="https://github.com/jedwab" target="blank">
+                        <i class="fab fa-github social-link"></i>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="https://www.linkedin.com/in/justyna-bobrowska/" target="blank">
+                        <i class="fab fa-linkedin social-link"></i>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="https://web.facebook.com/profile.php?id=100014080338443" target="blank">
+                        <i class="fab fa-facebook social-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
 </html>

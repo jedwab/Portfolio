@@ -386,7 +386,8 @@ body {
     width: 320px;
     height: 110px; }
 
-  #o-mnie .col-xs-4, #o-mnie .col-xs-8 {
+  #o-mnie .col-xs-4,
+  #o-mnie .col-xs-8 {
     width: 100%; }
   #o-mnie img {
     width: 200px;
